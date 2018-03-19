@@ -54,8 +54,12 @@ h5{
   h5{
     font-size: 12px;
   }
+  .btn-add{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
 }
-
 
 /* css for  medium devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -72,6 +76,12 @@ h5{
     width: 110px;
     height: 250px;
     overflow: hidden;
+  }
+  .btn-add{
+    width:50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
   }
 }
 

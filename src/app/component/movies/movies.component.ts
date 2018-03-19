@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.css']
 })
+
 export class MoviesComponent implements OnInit {
   public movies =[];
   public favMovies=[];
@@ -14,12 +15,11 @@ export class MoviesComponent implements OnInit {
   ngOnInit() {
   }
 
+  //to set movielist data from search component
   setMovieList(event){
     this.hidden=false;
     this.movies = event.moviesList;
   }
-  setFavMovieList(event){
-    this.favMovies = event.results;
-  }
+
 }
 

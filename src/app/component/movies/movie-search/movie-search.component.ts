@@ -12,12 +12,15 @@ export class MovieSearchComponent implements OnInit {
   @Output() success = new EventEmitter<any>();
   public moviesList=[];
   public movieSearch: any; 
+  public errorMsg ='';
+  public showError : boolean = false;
 
   constructor(private tmdbApiService : TmdbApiService) {
   }
 
   ngOnInit() {
   }
+
   // Function to get search text and make service call to get movies fromTMDB
   searchMovie(){
     this.tmdbApiService.searchMovie(this.movieSearch).subscribe((res) =>{
@@ -26,9 +29,10 @@ export class MovieSearchComponent implements OnInit {
         'moviesList': this.moviesList
       });
     }, (error) =>{
-
-    }) 
-  }
-
-
+      this.errorMsg = error._body;
+      this.showError = true;
+    })
 }
+}
+
+

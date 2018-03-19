@@ -1,6 +1,5 @@
 <app-movie-search (success)="setMovieList($event)"></app-movie-search>
 <app-movie-list [movies]="movies"></app-movie-list>
-<h4 class="text-center"> Total Favourite Movies Added : {{favMovies.length}}</h4>
 
 <!-- for welcome message on home page  -->
 <div class="jumbotron mt-3" *ngIf="hidden">
@@ -10,6 +9,3 @@
   <p>A great place to search your favourite movies.</p>
 </div>
 
- <div [hidden]="true">
- <app-movie (favmovie)="setFavMovieList($event)"></app-movie>
- </div> 
