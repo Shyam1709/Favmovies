@@ -16,12 +16,6 @@ h5{
 
 /* css for very small devices */
 @media (max-width: 576px){
-  h5{
-    text-align: center;
-  }
-  img{
-    margin: 0 auto;
-  }
   .card{
     margin:0 auto;
     margin-bottom: 22px;
@@ -34,6 +28,9 @@ h5{
    margin-left: 0px;
    justify-content: center;
  }
+ .card-title{
+  text-align: center;
+}
 
 }
 
@@ -72,10 +69,7 @@ h5{
   .card-text{
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
-    margin-left: 0px;
-    width: 110px;
-    height: 250px;
-    overflow: hidden;
+    overflow-y: 120px;
   }
   .btn-add{
     width:50%;

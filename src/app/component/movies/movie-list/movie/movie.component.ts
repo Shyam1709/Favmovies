@@ -13,6 +13,7 @@ export class MovieComponent implements OnInit {
   @Input() movie: any;
   @Input() flag: any;
   public movieUrl=AppConfig.baseUrl;
+   public favMovies : any =[];
   public errorMsg ='';
   public showError : boolean = false;
 
@@ -36,9 +37,20 @@ export class MovieComponent implements OnInit {
   // get data of favourite movies from database
   getFavorite() {
     this.jsonApiService.getFavourite().subscribe((res) =>{
+      this.favMovies = res;
       this.showError = false;
     },(error:any)=>{
       this.errorMsg = error._body;
+      this.showError = true;
+    })
+  }
+
+  //Delete movie from database
+  deleteMovie(movieId){
+    this.jsonApiService.deleteMovie(movieId).subscribe(data=>{
+      this.getFavorite();
+    },(error:any)=>{
+      this.errorMsg = error.statusText;
       this.showError = true;
     })
   }

@@ -17,14 +17,22 @@ addToFavourite(movie){
     (error: any)=>this.handleError(error));
 }
 
-    // Call rest api to get favourite movies from json database
-    getFavourite(){ 
-      return this.http.get(AppConfig.apiUrl+'/movies')
-      .map(data => data.json(),
-        (error: any)=>this.handleError(error));
-    }
-    // Handle errors
-    private handleError(error: Response){
-      return Observable.throw(error.statusText);
-    }
-  }
+// Call rest api to get favourite movies from json database
+getFavourite(){ 
+  return this.http.get(AppConfig.apiUrl+'/movies')
+  .map(data => data.json(),
+    (error: any)=>this.handleError(error));
+}
+
+// Call rest api to delete favourite movies from json database
+deleteMovie(movieId){ 
+  return this.http.delete(AppConfig.apiUrl+'/movies/'+movieId)
+  .map(data => data.json(),
+    (error: any)=>this.handleError(error));
+}
+
+// Handle errors
+private handleError(error: Response){
+  return Observable.throw(error.statusText);
+}
+}
