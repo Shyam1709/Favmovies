@@ -11,6 +11,12 @@
    <p class="card-text"><strong>Rating:</strong> {{movie.vote_average}}</p>
  </div>
 </div>
+</div>flag : {{flag}}
+<div *ngIf="flag === 'search'">
+  <a class="btn btn-primary btn-add" (click)="addToFavorite(movie)" >Add to favourite</a>
 </div>
-<a class="btn btn-primary btn-add" (click)="addToFavorite(movie)" >Add to favourite</a>
+<div *ngIf="flag === 'list'">
+  <a class="btn btn-primary btn-add" (click)="addToFavorite(movie)" >Delete</a>
+</div>
+
 <!-- ends here -->

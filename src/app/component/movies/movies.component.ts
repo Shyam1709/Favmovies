@@ -10,6 +10,7 @@ export class MoviesComponent implements OnInit {
   public movies =[];
   public favMovies=[];
   public hidden=true;
+  public flag = 'search';
   constructor() { }
 
   ngOnInit() {

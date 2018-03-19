@@ -9,6 +9,7 @@ import { AppConfig } from './../../../config/config.constant';
 
 export class MovieListComponent implements OnInit {
 	@Input() movies: Array<any>=[];
+	@Input() flag: string;
 	public movieUrl=AppConfig.baseUrl;
 	constructor() { 
 	}

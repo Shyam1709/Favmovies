@@ -32,7 +32,7 @@ export class MovieSearchComponent implements OnInit {
       this.errorMsg = error._body;
       this.showError = true;
     })
-}
+  }
 }
 
 

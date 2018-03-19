@@ -9,6 +9,7 @@ const routes :Routes = [
 {path: 'home', component:MoviesComponent},
 {path: 'favourite', component:FavMoviesComponent },
 ];
+
 @NgModule({
   imports: [RouterModule.forRoot(routes),
   CommonModule

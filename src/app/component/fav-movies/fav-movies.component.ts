@@ -13,6 +13,7 @@ export class FavMoviesComponent implements OnInit {
 	public favMovies : any =[];
 	public errorMsg ='';
 	public showError : boolean = false;
+  public flag = 'list';
 
 	constructor(private jsonApiService: JsonApiService) { 
 	}

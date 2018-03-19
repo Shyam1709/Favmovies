@@ -1,5 +1,5 @@
 <app-movie-search (success)="setMovieList($event)"></app-movie-search>
-<app-movie-list [movies]="movies"></app-movie-list>
+<app-movie-list [movies]="movies" [flag]="flag"></app-movie-list>
 
 <!-- for welcome message on home page  -->
 <div class="jumbotron mt-3" *ngIf="hidden">
