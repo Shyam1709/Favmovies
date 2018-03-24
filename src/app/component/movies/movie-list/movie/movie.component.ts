@@ -37,8 +37,6 @@ export class MovieComponent implements OnInit {
 
   // get data of favourite movies from database
   getFavorite() {
-
-    console.log('sanjay');
     this.jsonApiService.getFavourite().subscribe((res) =>{
       this.favMovies = res;
       this.showError = false;
