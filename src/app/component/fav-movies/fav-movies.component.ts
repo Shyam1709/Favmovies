@@ -13,13 +13,13 @@ export class FavMoviesComponent implements OnInit {
 	public favMovies : any =[];
 	public errorMsg ='';
 	public showError : boolean = false;
-  public flag = 'list';
+	public flag = 'list';
 
 	constructor(private jsonApiService: JsonApiService) { 
 	}
 
 	ngOnInit() {
-this.getFavourite();
+		this.getFavourite();
 	}
 
 	//get data of favourite movies from database
