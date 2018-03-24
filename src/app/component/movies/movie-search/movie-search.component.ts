@@ -33,7 +33,9 @@ export class MovieSearchComponent implements OnInit {
     }
     this.tmdbApiService.searchMovie(this.movieSearch).subscribe((res) =>{
       this.moviesList = res.results;
-       this.searchResult=false;
+       if(this.moviesList.length==0){
+         this.searchResult=true;
+       }
       this.msg='';
      this.onEventEmit(this.moviesList);
     }, (error) =>{
