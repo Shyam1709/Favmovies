@@ -18,7 +18,7 @@ export class MoviesComponent implements OnInit {
   constructor(private jsonApiService: JsonApiService) { }
 
   ngOnInit() {
-    this.getFavourite();
+    this.countFavourite();
   }
 
   //to set movielist data from search component
@@ -28,21 +28,20 @@ export class MoviesComponent implements OnInit {
   }
 
   //get data of favourite movies from database
-  getFavourite() {
+  countFavourite() {
     this.jsonApiService.getFavourite().subscribe((res) =>{
       this.favMovies = res;
-      
-      console.log(this.favMovies.length);
       this.showError = false;
     },(error:any)=>{
-      this.errorMsg = error.statusText;
+      this.errorMsg = error._body;
       this.showError = true;
     })
   }
 
+//to set total no of favourite movies on browser  
 setFavMovieList(event){
  this.favMovies=event.favMovies;
- this.getFavourite();
+ this.countFavourite();
 }
 
 }

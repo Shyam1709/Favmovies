@@ -47,6 +47,7 @@ export class MovieSearchComponent implements OnInit {
     })
   }
 
+//send movielist to the movies component
   onEventEmit(moviesList: any) {
      this.success.emit({
         'moviesList': moviesList

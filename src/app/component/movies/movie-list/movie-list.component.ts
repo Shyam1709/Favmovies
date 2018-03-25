@@ -13,10 +13,13 @@ export class MovieListComponent implements OnInit {
   @Output() favArray= new EventEmitter();
   public movieUrl=AppConfig.baseUrl;
   public favMovies=[];
+  public errorMsg="";
+  public displayError:boolean=false;
   constructor() { 
   }
 
   ngOnInit() {
+    this.displayError=false;
   }
 
   setFavMovieList(event){
@@ -25,4 +28,12 @@ export class MovieListComponent implements OnInit {
       'favMovies': this.favMovies
     });
   }
+
+//show error on the browser if user added duplicate movies
+  showError(event){
+    this.displayError=false;
+    this.errorMsg=event.errMsg;
+    if(this.errorMsg!=""){
+    this.displayError=true;
+      }}
 }

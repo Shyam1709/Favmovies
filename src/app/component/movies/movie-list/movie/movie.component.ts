@@ -15,6 +15,7 @@ export class MovieComponent implements OnInit {
   @Input() movie: any;
   @Input() flag: any;
   @Output() favArray = new EventEmitter();
+  @Output() err =new EventEmitter();
   public movieUrl=AppConfig.baseUrl;
   public favMovies : any =[];
   public errorMsg ='';
@@ -34,6 +35,9 @@ export class MovieComponent implements OnInit {
         this.showError = false;
       },(error:any)=>{
         this.errorMsg = error.statusText;
+        this.err.emit({
+          'errMsg': this.errorMsg
+        })
         this.showError = true;
       })
     }
@@ -66,8 +70,8 @@ export class MovieComponent implements OnInit {
   setMovie(movie) {
     this.selectedMovie = movie;
   }
-
- onSubmit(value: any) {
+  
+  onSubmit(value: any) {
     console.log(value);
   }
 

@@ -1,237 +1,6 @@
 {
   "movies": [
     {
-      "vote_count": 266,
-      "id": 321528,
-      "video": false,
-      "vote_average": 6.8,
-      "title": "Batman vs. Robin",
-      "popularity": 6.54139,
-      "poster_path": "/6g7iQJAgyDn9mep98RXhLI64RcA.jpg",
-      "original_language": "en",
-      "original_title": "Batman vs. Robin",
-      "genre_ids": [
-        28,
-        12,
-        16
-      ],
-      "backdrop_path": "/oERfMmGc1GJRnC8IuFUH7zpR5z5.jpg",
-      "adult": false,
-      "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls.",
-      "release_date": "2015-04-14"
-    },
-    {
-      "vote_count": 6675,
-      "id": 269149,
-      "video": false,
-      "vote_average": 7.7,
-      "title": "Zootopia",
-      "popularity": 420.09345,
-      "poster_path": "/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg",
-      "original_language": "en",
-      "original_title": "Zootopia",
-      "genre_ids": [
-        16,
-        12,
-        10751,
-        35
-      ],
-      "backdrop_path": "/mhdeE1yShHTaDbJVdWyTlzFvNkr.jpg",
-      "adult": false,
-      "overview": "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery.",
-      "release_date": "2016-02-11"
-    },
-    {
-      "vote_count": 358,
-      "id": 354287,
-      "video": false,
-      "vote_average": 5.7,
-      "title": "War Machine",
-      "popularity": 10.974625,
-      "poster_path": "/zGlzlzms2vN5vSFVMWuknu7XGXP.jpg",
-      "original_language": "en",
-      "original_title": "War Machine",
-      "genre_ids": [
-        35,
-        18,
-        10752
-      ],
-      "backdrop_path": "/eQsellX1IeGaIjv1w4JBzoOrvmf.jpg",
-      "adult": false,
-      "overview": "A rock star general bent on winning the “impossible” war in Afghanistan takes us inside the complex machinery of modern war. Inspired by the true story of General Stanley McChrystal.",
-      "release_date": "2017-05-26"
-    },
-    {
-      "vote_count": 1,
-      "id": 436723,
-      "video": false,
-      "vote_average": 1,
-      "title": "Kingkong",
-      "popularity": 1.036471,
-      "poster_path": "/cd0kCObyOlifjfoVNtprQeJCfNg.jpg",
-      "original_language": "en",
-      "original_title": "Kingkong",
-      "genre_ids": [],
-      "backdrop_path": null,
-      "adult": false,
-      "overview": "In Michaela Grill´s work, the opulence of these images is diametrically opposed to a minimalistic reduction to an element of urban architecture. The disintegration of the initial material (the windowed façade of a building), which resembles a chemical process, produces the colors violet, light blue and white and dissects the urban vocabulary of forms. The dispersion of the big city´s lights carries over to the structure of time and space and ceases to conjure up an external danger. Instead, the viewer is confronted with sound and images which decompose the personal criteria employed in sensory perception.",
-      "release_date": "2000-01-01"
-    },
-    {
-      "vote_count": 532,
-      "id": 73567,
-      "video": false,
-      "vote_average": 6.4,
-      "title": "Killer Joe",
-      "popularity": 9.288217,
-      "poster_path": "/mGLeViPOSwkF4rG9c0ZngJECrk2.jpg",
-      "original_language": "en",
-      "original_title": "Killer Joe",
-      "genre_ids": [
-        80,
-        18,
-        53
-      ],
-      "backdrop_path": "/8UigwLLO5e8xtlDZxSWsiYf5OuR.jpg",
-      "adult": false,
-      "overview": "A cop (Matthew McConaughey) who moonlights as a hit man agrees to kill the hated mother of a desperate drug dealer (Emile Hirsch) in exchange for a tumble with the young man's virginal sister (Juno Temple).",
-      "release_date": "2011-09-10"
-    },
-    {
-      "vote_count": 6,
-      "id": 72231,
-      "video": false,
-      "vote_average": 3.7,
-      "title": "Killer Buzz",
-      "popularity": 2.997379,
-      "poster_path": "/9utyT8BZVOEdbk0z36LqYeOW9F9.jpg",
-      "original_language": "en",
-      "original_title": "Killer Buzz",
-      "genre_ids": [
-        27,
-        28,
-        53,
-        878
-      ],
-      "backdrop_path": "/4E7bRINqSDd4qzdWNuu8HsFsSgQ.jpg",
-      "adult": false,
-      "overview": "After a series of Amazonian Indian attacks on US owned petroleum installation in Brazil, both governments start a secret 'special program'. In fact colonel Ezekial's men use GM killer bees to eradicate the tribes. During an Indian attack, reporter Ann Bauer is stung, yet survives after a mysterious rescue. Dr. Stephen North realizes the venom has priceless healing powers and smuggles the bee aboard a flight to New York. Bauer, her nearly-divorced husband, Martin, who is aboard and her friend, US State Department project representative, Scotty, face potential mass-killing after turbulence releases the bees aboard.",
-      "release_date": "2001-12-31"
-    },
-    {
-      "vote_count": 46,
-      "id": 9581,
-      "video": false,
-      "vote_average": 6.7,
-      "title": "Fulltime Killer",
-      "popularity": 5.178211,
-      "poster_path": "/enDgHnjrZJxVdieOXyiWl2OaVPa.jpg",
-      "original_language": "cn",
-      "original_title": "全職殺手",
-      "genre_ids": [
-        28,
-        80,
-        18,
-        53
-      ],
-      "backdrop_path": "/uhBFBh6W2un29o8Mo3TjjQlKArW.jpg",
-      "adult": false,
-      "overview": "Professional assassin O has resided in an isolated world of killing and loneliness. But his life begins to change once he meets the innocent Chin; hired to clean O's apartment. However, soon the flamboyent and reckless Tok enters Chin's life with a mission--to unveil O's identity and usurp his place as the number one sharp-shooting assassin in the game.",
-      "release_date": "2001-08-03"
-    },
-    {
-      "vote_count": 2,
-      "id": 47099,
-      "video": false,
-      "vote_average": 2.5,
-      "title": "Killer",
-      "popularity": 1.146716,
-      "poster_path": "/7ksXHnv9vji2afzKA1H8sdxHMUf.jpg",
-      "original_language": "en",
-      "original_title": "Tueur à gages",
-      "genre_ids": [],
-      "backdrop_path": null,
-      "adult": false,
-      "overview": "A young man gets into an accident and now owes people money. He lives in present day Almaty, Kazakhstan, where jobs are scarce. So he turns to dubious characters for help which leads him deeper and deeper into trouble.",
-      "release_date": "1998-01-01"
-    },
-    {
-      "vote_count": 0,
-      "id": 59942,
-      "video": true,
-      "vote_average": 0,
-      "title": "Magma - Theusz Hamtaahk Trilogy",
-      "popularity": 1.005625,
-      "poster_path": "/6RWj2EsBr6exgrbFojqbuuuo5iD.jpg",
-      "original_language": "fr",
-      "original_title": "Magma - Theusz Hamtaahk Trilogie au Trianon",
-      "genre_ids": [
-        10402
-      ],
-      "backdrop_path": null,
-      "adult": false,
-      "overview": "30th anniversary concert by the legendary French \"Zeuhl\"-style progressive rock band Magma, featuring all three movements of their Theusz Hamtaahk trilogy.",
-      "release_date": ""
-    },
-    {
-      "vote_count": 19,
-      "id": 26656,
-      "video": false,
-      "vote_average": 5,
-      "title": "Ghost Machine",
-      "popularity": 2.378546,
-      "poster_path": "/extB0YvLvTkl4jFIFoPrC4ezgAB.jpg",
-      "original_language": "en",
-      "original_title": "Ghost Machine",
-      "genre_ids": [
-        28,
-        27,
-        878,
-        53
-      ],
-      "backdrop_path": "/4smu6hN5HGJ0aClEHzFsitEDGWO.jpg",
-      "adult": false,
-      "overview": "Two technicians battle a vengeful spirit that has infected their stolen military software.",
-      "release_date": "2009-02-01"
-    },
-    {
-      "vote_count": 392,
-      "id": 174675,
-      "video": false,
-      "vote_average": 5.9,
-      "title": "The Machine",
-      "popularity": 6.353266,
-      "poster_path": "/smbzmGrpVNiZWyHHazrCDihjloV.jpg",
-      "original_language": "en",
-      "original_title": "The Machine",
-      "genre_ids": [
-        878,
-        53
-      ],
-      "backdrop_path": "/fBzNahBViD372cX8ptg2e4COCOp.jpg",
-      "adult": false,
-      "overview": "Already deep into a second Cold War, Britain’s Ministry of Defense seeks a game-changing weapon. Programmer Vincent McCarthy unwittingly provides an answer in The Machine, a super-strong human cyborg. When a programming bug causes the prototype to decimate his lab, McCarthy takes his obsessive efforts underground, far away from inquisitive eyes.",
-      "release_date": "2013-04-25"
-    },
-    {
-      "vote_count": 0,
-      "id": 243118,
-      "video": false,
-      "vote_average": 0,
-      "title": "Claycat's Hitman Absolution",
-      "popularity": 1.033022,
-      "poster_path": "/kJ2sUAJZ3SVAXPVXbDW9NwU9LPt.jpg",
-      "original_language": "en",
-      "original_title": "Claycat's Hitman Absolution",
-      "genre_ids": [
-        16
-      ],
-      "backdrop_path": null,
-      "adult": false,
-      "overview": "The attack of The Saints from the latest Hitman game, retold with claymation cats.",
-      "release_date": "2012-10-05"
-    },
-    {
       "vote_count": 1,
       "id": 198379,
       "video": false,
@@ -287,6 +56,496 @@
       "adult": false,
       "overview": "A little chicken is late to school, and uses being \"kidnapped\" as her excuse.",
       "release_date": "2009-06-08"
+    },
+    {
+      "vote_count": 821,
+      "id": 49021,
+      "video": false,
+      "vote_average": 6.1,
+      "title": "Killer Elite",
+      "popularity": 7.955559,
+      "poster_path": "/cnhNUChZVkLxrvfqDEVLKgBPy1z.jpg",
+      "original_language": "en",
+      "original_title": "Killer Elite",
+      "genre_ids": [
+        28,
+        12,
+        53
+      ],
+      "backdrop_path": "/pQcSfSu4hy4AJ1KjjTxXKBQdMzE.jpg",
+      "adult": false,
+      "overview": "Based on a shocking true story, Killer Elite pits two of the world’s most elite operatives—Danny, an ex-special ops agent and Hunter, his longtime mentor—against the cunning leader of a secret military society. Covering the globe from Australia to Paris, London and the Middle East, Danny and Hunter are plunged into a highly dangerous game of cat and mouse—where the predators become the prey.",
+      "release_date": "2011-09-23"
+    },
+    {
+      "vote_count": 98,
+      "id": 209504,
+      "video": false,
+      "vote_average": 5.8,
+      "title": "Bounty Killer",
+      "popularity": 7.020246,
+      "poster_path": "/tRitIE7zNwoF99j3IA31chp5idI.jpg",
+      "original_language": "en",
+      "original_title": "Bounty Killer",
+      "genre_ids": [
+        28,
+        878
+      ],
+      "backdrop_path": "/9bxgzFuIAw5TaJhnYLpNHnIrZwo.jpg",
+      "adult": false,
+      "overview": "It’s been 20 years since the corporations took over the world’s governments. Their thirst for power and profits led to the Corporate Wars, a fierce global battle that laid waste to society as we know it. Born from the ash, the Council of Nine rose as a new law and order for this dark age. To avenge the corporations’ reckless destruction, the Council issues death warrants for all white collar criminals. Their hunters—the bounty killer. From amateur savage to graceful assassin, the bounty killers now compete for body count, fame and a fat stack of cash. They’re ending the plague of corporate greed and providing the survivors of the apocalypse with retribution. These are the new heroes. This is the age of the BOUNTY KILLER.",
+      "release_date": "2013-09-05"
+    },
+    {
+      "vote_count": 4,
+      "id": 46800,
+      "video": false,
+      "vote_average": 6.8,
+      "title": "Saladin the Victorious",
+      "popularity": 1.411506,
+      "poster_path": "/9x6nnWDzT2DFznFB9Krwkbi2eqd.jpg",
+      "original_language": "ar",
+      "original_title": "الناصر صلاح الدين",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "backdrop_path": "/v6PqUrpzppZizWjz3tDZ5pS1YBx.jpg",
+      "adult": false,
+      "overview": "Saladin, the first sultan of Egypt and Syria, leads the Muslim military campaign against the invading Christians from Europe during the Third Crusade.",
+      "release_date": "1963-01-01"
+    },
+    {
+      "vote_count": 33,
+      "id": 26337,
+      "video": false,
+      "vote_average": 6,
+      "title": "China Moon",
+      "popularity": 4.403464,
+      "poster_path": "/d3NZeytOftjdpcZt0se6rvo93yd.jpg",
+      "original_language": "en",
+      "original_title": "China Moon",
+      "genre_ids": [
+        9648,
+        53
+      ],
+      "backdrop_path": "/5KPhMWKUVHhWV14t0nPN86Rs6vs.jpg",
+      "adult": false,
+      "overview": "Detective Kyle Bodine falls for Rachel Munro who is trapped in a violent marriage. After shooting her husband, Kyle relucantly agrees to help hide the body, but Kyle's partner is showing an unusual flair for finding clues.",
+      "release_date": "1991-03-04"
+    },
+    {
+      "vote_count": 0,
+      "id": 344063,
+      "video": false,
+      "vote_average": 0,
+      "title": "Moon",
+      "popularity": 1.009412,
+      "poster_path": null,
+      "original_language": "en",
+      "original_title": "Lua",
+      "genre_ids": [
+        16
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "A process of changing from the atomic scale to outer space, vibrant dialogue between opposite forces. A point of mutation in which darkness is replaced by light. MOON is an abstract animation film directly handmade on 16mm unexposed film stock. A handmade voyage to the moon.",
+      "release_date": "2013-02-01"
+    },
+    {
+      "vote_count": 13,
+      "id": 24275,
+      "video": false,
+      "vote_average": 5.1,
+      "title": "Mojave Moon",
+      "popularity": 3.196748,
+      "poster_path": "/bAG57RtZ1esLw2wuUyjbyhvnnD.jpg",
+      "original_language": "en",
+      "original_title": "Mojave Moon",
+      "genre_ids": [
+        53,
+        35,
+        10749
+      ],
+      "backdrop_path": "/91olc9AMpBElv7TFNXAJyaV37Im.jpg",
+      "adult": false,
+      "overview": "Al McCord is hanging out at his favourite restaurant when he meets an attractive young woman (Ellie) who is looking for a ride from the city out into the Mojave Desert, where her mother lives. Little does he know that while Ellie is falling in love with him, he is falling for her mother (Julie), despite the nearby presence of Julie's boyfriend who seems likely to go berzerk at any moment. Even more strange, hilarious events follow and it's up to Al to find some explanation. His life may never again be the same.",
+      "release_date": "1996-01-01"
+    },
+    {
+      "vote_count": 532,
+      "id": 73567,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Killer Joe",
+      "popularity": 5.770652,
+      "poster_path": "/mGLeViPOSwkF4rG9c0ZngJECrk2.jpg",
+      "original_language": "en",
+      "original_title": "Killer Joe",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "backdrop_path": "/8UigwLLO5e8xtlDZxSWsiYf5OuR.jpg",
+      "adult": false,
+      "overview": "A cop (Matthew McConaughey) who moonlights as a hit man agrees to kill the hated mother of a desperate drug dealer (Emile Hirsch) in exchange for a tumble with the young man's virginal sister (Juno Temple).",
+      "release_date": "2011-09-10"
+    },
+    {
+      "vote_count": 3,
+      "id": 399402,
+      "video": false,
+      "vote_average": 5.5,
+      "title": "Hunter Killer",
+      "popularity": 4.397055,
+      "poster_path": "/grfGOEDqloE248IvGg2jNMZVM2k.jpg",
+      "original_language": "en",
+      "original_title": "Hunter Killer",
+      "genre_ids": [
+        28
+      ],
+      "backdrop_path": "/x63c33AYeuARAoRE9CL5Ik9yojk.jpg",
+      "adult": false,
+      "overview": "An untested American submarine captain teams with U.S. Navy Seals to rescue the Russian president, who has been kidnapped by a rogue general.",
+      "release_date": "2017-08-31"
+    },
+    {
+      "vote_count": 230,
+      "id": 10835,
+      "video": false,
+      "vote_average": 7.6,
+      "title": "The Killer",
+      "popularity": 10.749718,
+      "poster_path": "/8hTxlSqMAHBXAh1eB69ir0BXhzE.jpg",
+      "original_language": "cn",
+      "original_title": "喋血雙雄",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ],
+      "backdrop_path": "/5pyfKiChqJg3cZGn1EM9rIWXALl.jpg",
+      "adult": false,
+      "overview": "Mob assassin Jeffrey is no ordinary hired gun; the best in his business, he views his chosen profession as a calling rather than simply a job. So, when beautiful nightclub chanteuse Jennie is blinded in the crossfire of his most recent hit, Jeffrey chooses to retire after one last job to pay for his unintended victim's sight-restoring operation. But when Jeffrey is double-crossed, he reluctantly joins forces with a rogue policeman to make things right.",
+      "release_date": "1989-07-06"
+    },
+    {
+      "vote_count": 0,
+      "id": 484997,
+      "video": false,
+      "vote_average": 0,
+      "title": "Soccer Killer",
+      "popularity": 4.169618,
+      "poster_path": "/xX9iRQKC8tgXHxceLXiQiPlOf9P.jpg",
+      "original_language": "cn",
+      "original_title": "仙球大戰",
+      "genre_ids": [
+        14,
+        28,
+        35
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "In the Song Dynasty, a group of patriots play soccer against the traitor with a team of foreign enemies, royal pro-nobles, bandits, martial arts masters and embrace the country hatred to compete for the first time in the history of China International soccer match.",
+      "release_date": "2017-06-30"
+    },
+    {
+      "vote_count": 56,
+      "id": 13942,
+      "video": false,
+      "vote_average": 5.2,
+      "title": "The Alphabet Killer",
+      "popularity": 5.901484,
+      "poster_path": "/no6QlDlrWLKUO68qqe1ixl80PTo.jpg",
+      "original_language": "en",
+      "original_title": "The Alphabet Killer",
+      "genre_ids": [
+        80,
+        9648,
+        53
+      ],
+      "backdrop_path": "/pQA6ieeolvVw6GoPO3w6yI8k5Ba.jpg",
+      "adult": false,
+      "overview": "Based on the true story of double killings occurring in Rochester, NY during the 80’s and the troubled police officer determined to solve them, with or without the help of her department",
+      "release_date": "2008-11-07"
+    },
+    {
+      "vote_count": 27,
+      "id": 42738,
+      "video": false,
+      "vote_average": 6.1,
+      "title": "Scorpio",
+      "popularity": 2.848749,
+      "poster_path": "/sX3gCVbFdZsLOFoshY5Q7vmU3yC.jpg",
+      "original_language": "en",
+      "original_title": "Scorpio",
+      "genre_ids": [
+        28,
+        12,
+        18,
+        53
+      ],
+      "backdrop_path": "/pZQAt4PEU5vXqFfLMPlkYajNJAW.jpg",
+      "adult": false,
+      "overview": "Cross is an old hand at the CIA, in charge of assassinating high-ranking foreign personalities who are an obstacle to the policies of the USA. He often teams up with Frenchman Jean Laurier, alias \"Scorpio\", a gifted free-lance operative. One day, the CIA orders Scorpio to eliminate Cross -- and leaves him no choice but to obey. Scorpio is cold-blooded and very systematic; however, as a veteran agent, Cross knows many tricks. He can also rely upon a network of unusual personal contacts, some dating back to the troubled years preceding WWII. A lethal game of hide-and-seek is programmed, but what are the true motives of every single player?",
+      "release_date": "1973-04-10"
+    },
+    {
+      "vote_count": 5,
+      "id": 24946,
+      "video": false,
+      "vote_average": 2.8,
+      "title": "Spirited Killer",
+      "popularity": 2.565245,
+      "poster_path": "/iTb0clIb2xnTKuhGwbbF7WOd9J2.jpg",
+      "original_language": "en",
+      "original_title": "Plook mun kuen ma kah 4",
+      "genre_ids": [
+        28
+      ],
+      "backdrop_path": "/6TDQMLAgYMRWkIhP7slR64A2yYP.jpg",
+      "adult": false,
+      "overview": "A group of travelers visiting the exotic forests of Thailand is suddenly attacked by a multi-weapon wielding maniac. Some manage to escape, others perish under his merciless blows. The maniac is the Spirited Killer, a forest dweller who kills anyone who steps into his jungle.",
+      "release_date": "1994-01-01"
+    },
+    {
+      "vote_count": 511,
+      "id": 293768,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "Kidnap",
+      "popularity": 13.460166,
+      "poster_path": "/fwdOX3PEZlOLXr9SMpgRnSmTVFp.jpg",
+      "original_language": "en",
+      "original_title": "Kidnap",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "backdrop_path": "/siRoJI12l4SbWye3wpIotM8OslV.jpg",
+      "adult": false,
+      "overview": "Single mother Karla McCoy lives a quiet life with her young son in a tax-credit film state. One day, upon entering a local park, Karla's son is abducted. When going to the police proves ineffective, Karla embarks on a solo mission to scream as loud as she can while driving her car as fast as she can.",
+      "release_date": "2017-08-04"
+    },
+    {
+      "vote_count": 1,
+      "id": 258597,
+      "video": false,
+      "vote_average": 6,
+      "title": "Robo-Kickboxer - Power of Justice",
+      "popularity": 1.042362,
+      "poster_path": "/cAOIoAYSsNZtyrFPCt77yAjkxNT.jpg",
+      "original_language": "en",
+      "original_title": "Robo-Kickboxer - Power of Justice",
+      "genre_ids": [
+        878,
+        28
+      ],
+      "backdrop_path": "/tA8YkU9V8SaFnEiGCIY4eanppRQ.jpg",
+      "adult": false,
+      "overview": "When a power enhancing drug has hallucinogenic side effects on kickboxer, Jack, he refuses to take it, and is then dropped by his manager. Desperate for money, he takes his teammate Kevin’s offer to deliver some cocaine. It is a set-up to take the business away from drug lord, Henry. Jack ends up in prison with Axel who was caught in the same deal.  Corrupt fight promoter, Parker, agrees to set up a fight between now blood rivals Kevin and Jack, and bets heavily on Jack. In order to ensure his success, he pumps Jack full of the experimental drug which brings out Jack’s ultimate fighting power while making Kevin appear as a fearsome robot to Jack. Crazed by the drug, Jack does win the fight, and is finally able to give up the ring and seek a peaceful life.",
+      "release_date": "1990-02-26"
+    },
+    {
+      "vote_count": 3,
+      "id": 97876,
+      "video": false,
+      "vote_average": 6.2,
+      "title": "Kidnap",
+      "popularity": 1.304811,
+      "poster_path": "/o5ad38tUWj2ZSRHYfZ3Dk0HsYTx.jpg",
+      "original_language": "cn",
+      "original_title": "綁架",
+      "genre_ids": [
+        18,
+        53,
+        80
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Three years ago, drama teacher Lam Hiu Yeung (Karena Lam) lost her younger brother in a kidnapping case, headed by female inspector Ho Yuen Chun (Rene Liu). Three years later, she is now on the verge of another great loss: her husband is in the late stages of cancer, and options are running out. To take him overseas for medical treatment, she needs money, and a lot of it. Using what she learned from her brother's tragic incident, she calmly masterminds the kidnapping of a tycoon's son, a case that again falls into the laps of workaholic detective and divorced mother Yuen Chun. These two strong-minded women square off in a high-stakes battle of wits, but plans and composure melt away on both sides when they realize that Hiu Yeung has nabbed the wrong kid - Yuen Chun's son.",
+      "release_date": "2007-06-14"
+    },
+    {
+      "vote_count": 2,
+      "id": 85247,
+      "video": false,
+      "vote_average": 3,
+      "title": "Killer",
+      "popularity": 1.658615,
+      "poster_path": "/z6R35t0hXAtLFbauhmsEaSVMBMf.jpg",
+      "original_language": "en",
+      "original_title": "Killer",
+      "genre_ids": [
+        53,
+        18,
+        10749
+      ],
+      "backdrop_path": "/jiGz4lKHS2jVYKcEQBOVlSZVOIU.jpg",
+      "adult": false,
+      "overview": "This lyrical, modern-day film noir finds cynical hit man Mick (Anthony LaPaglia) tiring of his job and asking his boss, mob kingpin George (Peter Boyle), for time off. George gives him the assignment of his life, however, prompting Mick's soul-searching to reach new heights. Mick is asked to kill the sultry Fiona (Mimi Rogers), who owes George money and claims she wants to die. But as Mick spends time with her, he finds himself falling for her.",
+      "release_date": "1994-09-14"
+    },
+    {
+      "vote_count": 2,
+      "id": 391711,
+      "video": false,
+      "vote_average": 6.5,
+      "title": "Imagining Zootopia",
+      "popularity": 1.368099,
+      "poster_path": "/aE9W1gG3OjBZI69n26vD6U8dFd.jpg",
+      "original_language": "en",
+      "original_title": "Imagining Zootopia",
+      "genre_ids": [
+        99
+      ],
+      "backdrop_path": "/4w047Yz5N5o4cYSH1PkoblJehDW.jpg",
+      "adult": false,
+      "overview": "Fusion spent two years with the production team of Disney's smash hit film. In 'Imagining Zootopia,' you will travel with the team to Africa to explore the animals in their natural habitat and find out how the storytellers and animators dealt with the very real themes of prejudice and bias.",
+      "release_date": "2016-04-05"
+    },
+    {
+      "vote_count": 6675,
+      "id": 269149,
+      "video": false,
+      "vote_average": 7.7,
+      "title": "Zootopia",
+      "popularity": 417.96356,
+      "poster_path": "/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg",
+      "original_language": "en",
+      "original_title": "Zootopia",
+      "genre_ids": [
+        16,
+        12,
+        10751,
+        35
+      ],
+      "backdrop_path": "/mhdeE1yShHTaDbJVdWyTlzFvNkr.jpg",
+      "adult": false,
+      "overview": "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery.",
+      "release_date": "2016-02-11"
+    },
+    {
+      "vote_count": 16,
+      "id": 20121,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "Killdozer",
+      "popularity": 1.959764,
+      "poster_path": "/gSOgWYzh3Md40rMG2heOYIr8Cwh.jpg",
+      "original_language": "en",
+      "original_title": "Killdozer",
+      "genre_ids": [
+        10770,
+        878,
+        53
+      ],
+      "backdrop_path": "/hqhu64SHY3v8GoHNhD6bLcElGyw.jpg",
+      "adult": false,
+      "overview": "Construction workers building an airstrip on a small Pacific Island during WWII encounter an ancient meteor. Then they are terrorized when some strange spirit-like being takes over a large bulldozer, and goes on a killing rampage.",
+      "release_date": "1974-02-02"
+    },
+    {
+      "vote_count": 0,
+      "id": 500818,
+      "video": false,
+      "vote_average": 0,
+      "title": "Kidnap",
+      "popularity": 1.0066,
+      "poster_path": "/n7lveSwewK3oJVL29QKhoC3m18S.jpg",
+      "original_language": "es",
+      "original_title": "Secuestro",
+      "genre_ids": [
+        9648,
+        28,
+        53
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "A 22-year-old girl, the daughter of a millionaire businessman, who is the victim of an express kidnapping, from which she will only be saved if her father pays a large ransom to her kidnappers.",
+      "release_date": "2005-05-30"
+    },
+    {
+      "vote_count": 225,
+      "id": 37414,
+      "video": false,
+      "vote_average": 6,
+      "title": "The Killer Inside Me",
+      "popularity": 6.589331,
+      "poster_path": "/9iaV9bNNFBxEWLjnMGvSmnNY4Uj.jpg",
+      "original_language": "en",
+      "original_title": "The Killer Inside Me",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "backdrop_path": "/ehc2PWa6mQv4NviHis22TcjVtyn.jpg",
+      "adult": false,
+      "overview": "Deputy Sheriff Lou Ford is a pillar of the community in his small west Texas town, patient and apparently thoughtful. Some people think he is a little slow and maybe boring, but that is the worst they say about him. But then nobody knows about what Lou calls his \"sickness\": He is a brilliant, but disturbed sociopathic sadist.",
+      "release_date": "2010-02-19"
+    },
+    {
+      "vote_count": 19,
+      "id": 419831,
+      "video": false,
+      "vote_average": 5.7,
+      "title": "I Kill Giants",
+      "popularity": 32.915999,
+      "poster_path": "/6cBSaoCbnEAJOing6ZTUuUc36gh.jpg",
+      "original_language": "en",
+      "original_title": "I Kill Giants",
+      "genre_ids": [
+        53,
+        18,
+        14
+      ],
+      "backdrop_path": "/lffgWEBiLf9DbDdb86WsGsEcWTg.jpg",
+      "adult": false,
+      "overview": "Barbara Thorson struggles through life by escaping into a fantasy life of magic and monsters.",
+      "release_date": "2018-03-09"
+    },
+    {
+      "vote_count": 678,
+      "id": 709,
+      "video": false,
+      "vote_average": 6,
+      "title": "Licence to Kill",
+      "popularity": 15.337238,
+      "poster_path": "/27EySoBH3oBuI6xat2QOquB9X8j.jpg",
+      "original_language": "en",
+      "original_title": "Licence to Kill",
+      "genre_ids": [
+        12,
+        28,
+        53
+      ],
+      "backdrop_path": "/nSu6o7XZSkungSOXZ5axzgRH2en.jpg",
+      "adult": false,
+      "overview": "James Bond and his American colleague Felix Leiter arrest the drug lord Sanchez who succeeds in escaping and takes revenge on Felix and his wife. Bond knows but just one thing: revenge.",
+      "release_date": "1989-07-07"
+    },
+    {
+      "vote_count": 105,
+      "id": 410554,
+      "video": false,
+      "vote_average": 5.4,
+      "title": "First Kill",
+      "popularity": 14.726443,
+      "poster_path": "/zoia9YSg82UNYbtum9QYjKSqdLw.jpg",
+      "original_language": "en",
+      "original_title": "First Kill",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "backdrop_path": "/dhX8LZJkREFmRcrbEGNkf6EE0OL.jpg",
+      "adult": false,
+      "overview": "A police chief tries to solve a kidnapping that involves a bank robber holding a young boy hostage.",
+      "release_date": "2017-07-21"
     }
   ]
 }

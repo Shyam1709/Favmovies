@@ -16,10 +16,10 @@
 </div>
 <div *ngIf="flag === 'list'">
   <a class="btn btn-primary btn-add" (click)="deleteMovie(movie.id)" >Delete</a>
-<button type="button" class="btn btn-primary btn-update" data-toggle="modal" data-target="#exampleModal">
-Update
-</button>
-    </div>
+  <button type="button" class="btn btn-primary btn-update" data-toggle="modal" data-target="#exampleModal">
+    Update
+  </button>
+</div>
 <!-- Button trigger modal -->
 
 
@@ -36,11 +36,11 @@ Update
       <div class="modal-body">
         <form #form="ngForm" (submit)="onSubmit(form.value)">
           
-<input class="form-control mb-3" type="text" name="title" placeholder="Movie Title" ngModel>
-<input class="form-control mb-3" type="text" name="overview" placeholder="Overview" ngModel>
-<input class="form-control mb-3" type="text" name="Rating" placeholder="Rating" ngModel>
+          <input class="form-control mb-3" type="text" name="title" placeholder="Movie Title" ngModel>
+          <input class="form-control mb-3" type="text" name="overview" placeholder="Overview" ngModel>
+          <input class="form-control mb-3" type="text" name="Rating" placeholder="Rating" ngModel>
 
-</form>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="submit">Submit</button>
