@@ -36,6 +36,9 @@ export class MovieSearchComponent implements OnInit {
        if(this.moviesList.length==0){
          this.searchResult=true;
        }
+       else{
+        this.searchResult=false; 
+       } 
       this.msg='';
      this.onEventEmit(this.moviesList);
     }, (error) =>{

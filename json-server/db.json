@@ -1,119 +1,81 @@
 {
   "movies": [
     {
-      "vote_count": 10783,
-      "id": 1726,
+      "vote_count": 266,
+      "id": 321528,
       "video": false,
-      "vote_average": 7.4,
-      "title": "Iron Man",
-      "popularity": 54.27205,
-      "poster_path": "/848chlIWVT41VtAAgyh9bWymAYb.jpg",
+      "vote_average": 6.8,
+      "title": "Batman vs. Robin",
+      "popularity": 6.54139,
+      "poster_path": "/6g7iQJAgyDn9mep98RXhLI64RcA.jpg",
       "original_language": "en",
-      "original_title": "Iron Man",
-      "genre_ids": [
-        28,
-        878,
-        12
-      ],
-      "backdrop_path": "/ZQixhAZx6fH1VNafFXsqa1B8QI.jpg",
-      "adult": false,
-      "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-      "release_date": "2008-04-30"
-    },
-    {
-      "vote_count": 1,
-      "id": 224264,
-      "video": false,
-      "vote_average": 7,
-      "title": "Smarty",
-      "popularity": 1.521241,
-      "poster_path": "/wrPqET7FMZy5TX7r40U3Sq9cUmh.jpg",
-      "original_language": "en",
-      "original_title": "Smarty",
-      "genre_ids": [
-        35
-      ],
-      "backdrop_path": null,
-      "adult": false,
-      "overview": "Vicki Wallace takes great pleasure in teasing her husband,Tony Wallace, who takes no pleasure at all in being teased and it isn't long before he ups and clips her on the chin. Vicki's friend and attorney, Vernon Thorpe, secures a divorce for her, and Vicki and Vernon are soon married. Vicki's yen for wearing revealing clothes and a penchant for inviting ex-husband Tony to dinner soon provokes the easily-provoked Vernon into belting one on her himself. She goes to Tony's apartment, where Tony is entertaining Bonnie, who is not all that entertained by the presence of Vicki, especially after Vicki shows every intent of moving in and staying.",
-      "release_date": "1934-05-19"
-    },
-    {
-      "vote_count": 5,
-      "id": 79263,
-      "video": false,
-      "vote_average": 5.6,
-      "title": "Smarty Cat",
-      "popularity": 1.456476,
-      "poster_path": "/xei3FbcWKSP25pHiGKOK7V7iwIN.jpg",
-      "original_language": "en",
-      "original_title": "Smarty Cat",
-      "genre_ids": [
-        35,
-        16
-      ],
-      "backdrop_path": "/d7ZkDBheaO8zJRwZmlFFYn9aCti.jpg",
-      "adult": false,
-      "overview": "Nobody's home, so Tom invites his alley cat friends in to look at home movies (clips from earlier cartoons where Tom gets the drop on Spike). While they're showing them, Spike sneaks in.",
-      "release_date": "1955-10-14"
-    },
-    {
-      "vote_count": 821,
-      "id": 49021,
-      "video": false,
-      "vote_average": 6.1,
-      "title": "Killer Elite",
-      "popularity": 9.91821,
-      "poster_path": "/cnhNUChZVkLxrvfqDEVLKgBPy1z.jpg",
-      "original_language": "en",
-      "original_title": "Killer Elite",
+      "original_title": "Batman vs. Robin",
       "genre_ids": [
         28,
         12,
-        53
+        16
       ],
-      "backdrop_path": "/pQcSfSu4hy4AJ1KjjTxXKBQdMzE.jpg",
+      "backdrop_path": "/oERfMmGc1GJRnC8IuFUH7zpR5z5.jpg",
       "adult": false,
-      "overview": "Based on a shocking true story, Killer Elite pits two of the world’s most elite operatives—Danny, an ex-special ops agent and Hunter, his longtime mentor—against the cunning leader of a secret military society. Covering the globe from Australia to Paris, London and the Middle East, Danny and Hunter are plunged into a highly dangerous game of cat and mouse—where the predators become the prey.",
-      "release_date": "2011-09-23"
+      "overview": "Damian Wayne is having a hard time coping with his father's \"no killing\" rule. Meanwhile, Gotham is going through hell with threats such as the insane Dollmaker, and the secretive Court of Owls.",
+      "release_date": "2015-04-14"
     },
     {
-      "vote_count": 2253,
-      "id": 17431,
+      "vote_count": 6675,
+      "id": 269149,
       "video": false,
-      "vote_average": 7.6,
-      "title": "Moon",
-      "popularity": 21.567347,
-      "poster_path": "/2tgl9q3ZaVQUfSsbftqhRxXCElB.jpg",
+      "vote_average": 7.7,
+      "title": "Zootopia",
+      "popularity": 420.09345,
+      "poster_path": "/sM33SANp9z6rXW8Itn7NnG1GOEs.jpg",
       "original_language": "en",
-      "original_title": "Moon",
+      "original_title": "Zootopia",
       "genre_ids": [
-        878,
-        18
-      ],
-      "backdrop_path": "/go6jnBNw2iNJKYTazt22SvxVI09.jpg",
-      "adult": false,
-      "overview": "With only three weeks left in his three year contract, Sam Bell is getting anxious to finally return to Earth. He is the only occupant of a Moon-based manufacturing facility along with his computer and assistant, GERTY. When he has an accident however, he wakens to find that he is not alone.",
-      "release_date": "2009-06-12"
-    },
-    {
-      "vote_count": 4,
-      "id": 463293,
-      "video": false,
-      "vote_average": 7.5,
-      "title": "Meyaadha Maan",
-      "popularity": 1.803569,
-      "poster_path": "/vmeqTtTbdTFcamhZD2LFxHf7kGc.jpg",
-      "original_language": "ta",
-      "original_title": "மேயாத மான்",
-      "genre_ids": [
-        10749,
+        16,
+        12,
+        10751,
         35
       ],
-      "backdrop_path": "/nSei7VFSrxNmV1FmFg3Ptxcse1l.jpg",
+      "backdrop_path": "/mhdeE1yShHTaDbJVdWyTlzFvNkr.jpg",
       "adult": false,
-      "overview": "A youngster who loves a girl tries to commit suicide and to dissuade him, his friend reaches out to the girl, setting in motion events that unexpectedly turn out to be life changing.",
-      "release_date": "2017-10-18"
+      "overview": "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery.",
+      "release_date": "2016-02-11"
+    },
+    {
+      "vote_count": 358,
+      "id": 354287,
+      "video": false,
+      "vote_average": 5.7,
+      "title": "War Machine",
+      "popularity": 10.974625,
+      "poster_path": "/zGlzlzms2vN5vSFVMWuknu7XGXP.jpg",
+      "original_language": "en",
+      "original_title": "War Machine",
+      "genre_ids": [
+        35,
+        18,
+        10752
+      ],
+      "backdrop_path": "/eQsellX1IeGaIjv1w4JBzoOrvmf.jpg",
+      "adult": false,
+      "overview": "A rock star general bent on winning the “impossible” war in Afghanistan takes us inside the complex machinery of modern war. Inspired by the true story of General Stanley McChrystal.",
+      "release_date": "2017-05-26"
+    },
+    {
+      "vote_count": 1,
+      "id": 436723,
+      "video": false,
+      "vote_average": 1,
+      "title": "Kingkong",
+      "popularity": 1.036471,
+      "poster_path": "/cd0kCObyOlifjfoVNtprQeJCfNg.jpg",
+      "original_language": "en",
+      "original_title": "Kingkong",
+      "genre_ids": [],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "In Michaela Grill´s work, the opulence of these images is diametrically opposed to a minimalistic reduction to an element of urban architecture. The disintegration of the initial material (the windowed façade of a building), which resembles a chemical process, produces the colors violet, light blue and white and dissects the urban vocabulary of forms. The dispersion of the big city´s lights carries over to the structure of time and space and ceases to conjure up an external danger. Instead, the viewer is confronted with sound and images which decompose the personal criteria employed in sensory perception.",
+      "release_date": "2000-01-01"
     },
     {
       "vote_count": 532,
@@ -136,62 +98,195 @@
       "release_date": "2011-09-10"
     },
     {
-      "vote_count": 3,
-      "id": 393789,
+      "vote_count": 6,
+      "id": 72231,
       "video": false,
-      "vote_average": 10,
-      "title": "Killer",
-      "popularity": 1.781701,
-      "poster_path": "/6wh6A4iovyoZGPvXowrqotdt8wR.jpg",
+      "vote_average": 3.7,
+      "title": "Killer Buzz",
+      "popularity": 2.997379,
+      "poster_path": "/9utyT8BZVOEdbk0z36LqYeOW9F9.jpg",
       "original_language": "en",
-      "original_title": "Killer",
+      "original_title": "Killer Buzz",
       "genre_ids": [
-        35,
-        18
-      ],
-      "backdrop_path": "/cyRbOrOctJ5KqwWN1R5n9PRkhgW.jpg",
-      "adult": false,
-      "overview": "A pubescent boy is convinced he has a terrible new ability",
-      "release_date": "2016-01-16"
-    },
-    {
-      "vote_count": 98,
-      "id": 209504,
-      "video": false,
-      "vote_average": 5.8,
-      "title": "Bounty Killer",
-      "popularity": 6.124057,
-      "poster_path": "/tRitIE7zNwoF99j3IA31chp5idI.jpg",
-      "original_language": "en",
-      "original_title": "Bounty Killer",
-      "genre_ids": [
+        27,
         28,
+        53,
         878
       ],
-      "backdrop_path": "/9bxgzFuIAw5TaJhnYLpNHnIrZwo.jpg",
+      "backdrop_path": "/4E7bRINqSDd4qzdWNuu8HsFsSgQ.jpg",
       "adult": false,
-      "overview": "It’s been 20 years since the corporations took over the world’s governments. Their thirst for power and profits led to the Corporate Wars, a fierce global battle that laid waste to society as we know it. Born from the ash, the Council of Nine rose as a new law and order for this dark age. To avenge the corporations’ reckless destruction, the Council issues death warrants for all white collar criminals. Their hunters—the bounty killer. From amateur savage to graceful assassin, the bounty killers now compete for body count, fame and a fat stack of cash. They’re ending the plague of corporate greed and providing the survivors of the apocalypse with retribution. These are the new heroes. This is the age of the BOUNTY KILLER.",
-      "release_date": "2013-09-05"
+      "overview": "After a series of Amazonian Indian attacks on US owned petroleum installation in Brazil, both governments start a secret 'special program'. In fact colonel Ezekial's men use GM killer bees to eradicate the tribes. During an Indian attack, reporter Ann Bauer is stung, yet survives after a mysterious rescue. Dr. Stephen North realizes the venom has priceless healing powers and smuggles the bee aboard a flight to New York. Bauer, her nearly-divorced husband, Martin, who is aboard and her friend, US State Department project representative, Scotty, face potential mass-killing after turbulence releases the bees aboard.",
+      "release_date": "2001-12-31"
+    },
+    {
+      "vote_count": 46,
+      "id": 9581,
+      "video": false,
+      "vote_average": 6.7,
+      "title": "Fulltime Killer",
+      "popularity": 5.178211,
+      "poster_path": "/enDgHnjrZJxVdieOXyiWl2OaVPa.jpg",
+      "original_language": "cn",
+      "original_title": "全職殺手",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ],
+      "backdrop_path": "/uhBFBh6W2un29o8Mo3TjjQlKArW.jpg",
+      "adult": false,
+      "overview": "Professional assassin O has resided in an isolated world of killing and loneliness. But his life begins to change once he meets the innocent Chin; hired to clean O's apartment. However, soon the flamboyent and reckless Tok enters Chin's life with a mission--to unveil O's identity and usurp his place as the number one sharp-shooting assassin in the game.",
+      "release_date": "2001-08-03"
+    },
+    {
+      "vote_count": 2,
+      "id": 47099,
+      "video": false,
+      "vote_average": 2.5,
+      "title": "Killer",
+      "popularity": 1.146716,
+      "poster_path": "/7ksXHnv9vji2afzKA1H8sdxHMUf.jpg",
+      "original_language": "en",
+      "original_title": "Tueur à gages",
+      "genre_ids": [],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "A young man gets into an accident and now owes people money. He lives in present day Almaty, Kazakhstan, where jobs are scarce. So he turns to dubious characters for help which leads him deeper and deeper into trouble.",
+      "release_date": "1998-01-01"
     },
     {
       "vote_count": 0,
-      "id": 484997,
+      "id": 59942,
+      "video": true,
+      "vote_average": 0,
+      "title": "Magma - Theusz Hamtaahk Trilogy",
+      "popularity": 1.005625,
+      "poster_path": "/6RWj2EsBr6exgrbFojqbuuuo5iD.jpg",
+      "original_language": "fr",
+      "original_title": "Magma - Theusz Hamtaahk Trilogie au Trianon",
+      "genre_ids": [
+        10402
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "30th anniversary concert by the legendary French \"Zeuhl\"-style progressive rock band Magma, featuring all three movements of their Theusz Hamtaahk trilogy.",
+      "release_date": ""
+    },
+    {
+      "vote_count": 19,
+      "id": 26656,
+      "video": false,
+      "vote_average": 5,
+      "title": "Ghost Machine",
+      "popularity": 2.378546,
+      "poster_path": "/extB0YvLvTkl4jFIFoPrC4ezgAB.jpg",
+      "original_language": "en",
+      "original_title": "Ghost Machine",
+      "genre_ids": [
+        28,
+        27,
+        878,
+        53
+      ],
+      "backdrop_path": "/4smu6hN5HGJ0aClEHzFsitEDGWO.jpg",
+      "adult": false,
+      "overview": "Two technicians battle a vengeful spirit that has infected their stolen military software.",
+      "release_date": "2009-02-01"
+    },
+    {
+      "vote_count": 392,
+      "id": 174675,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "The Machine",
+      "popularity": 6.353266,
+      "poster_path": "/smbzmGrpVNiZWyHHazrCDihjloV.jpg",
+      "original_language": "en",
+      "original_title": "The Machine",
+      "genre_ids": [
+        878,
+        53
+      ],
+      "backdrop_path": "/fBzNahBViD372cX8ptg2e4COCOp.jpg",
+      "adult": false,
+      "overview": "Already deep into a second Cold War, Britain’s Ministry of Defense seeks a game-changing weapon. Programmer Vincent McCarthy unwittingly provides an answer in The Machine, a super-strong human cyborg. When a programming bug causes the prototype to decimate his lab, McCarthy takes his obsessive efforts underground, far away from inquisitive eyes.",
+      "release_date": "2013-04-25"
+    },
+    {
+      "vote_count": 0,
+      "id": 243118,
       "video": false,
       "vote_average": 0,
-      "title": "Soccer Killer",
-      "popularity": 4.477856,
-      "poster_path": "/xX9iRQKC8tgXHxceLXiQiPlOf9P.jpg",
-      "original_language": "cn",
-      "original_title": "仙球大戰",
+      "title": "Claycat's Hitman Absolution",
+      "popularity": 1.033022,
+      "poster_path": "/kJ2sUAJZ3SVAXPVXbDW9NwU9LPt.jpg",
+      "original_language": "en",
+      "original_title": "Claycat's Hitman Absolution",
       "genre_ids": [
-        14,
-        28,
+        16
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "The attack of The Saints from the latest Hitman game, retold with claymation cats.",
+      "release_date": "2012-10-05"
+    },
+    {
+      "vote_count": 1,
+      "id": 198379,
+      "video": false,
+      "vote_average": 6,
+      "title": "Hotel for Women",
+      "popularity": 1.623118,
+      "poster_path": "/mI8Y4k6dhxdjU3pljN4ATiL4MrX.jpg",
+      "original_language": "en",
+      "original_title": "Hotel for Women",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "/l9lsyvk7JIA15VODdGgpumR9lAL.jpg",
+      "adult": false,
+      "overview": "Guests at a women's residence club help a jilted small-town girl turn to modelling.",
+      "release_date": "1939-08-03"
+    },
+    {
+      "vote_count": 92,
+      "id": 362045,
+      "video": false,
+      "vote_average": 7.4,
+      "title": "Bajirao Mastani",
+      "popularity": 5.497403,
+      "poster_path": "/xN0aGzekKL0g0RgDxFo1ZWGNOfO.jpg",
+      "original_language": "hi",
+      "original_title": "Bajirao Mastani",
+      "genre_ids": [
+        10752,
+        36,
+        10749
+      ],
+      "backdrop_path": "/9qQqFrUI6kSjBuH9HaEJaPiEvmP.jpg",
+      "adult": false,
+      "overview": "A historical account of the romance between the Maratha general, Baji Rao I and Mastani, a Muslim princess.",
+      "release_date": "2015-12-18"
+    },
+    {
+      "vote_count": 0,
+      "id": 218174,
+      "video": false,
+      "vote_average": 0,
+      "title": "Kidnap",
+      "popularity": 1.006605,
+      "poster_path": "/TenDqzU83VGQ5V9gLJBD1synDX.jpg",
+      "original_language": "en",
+      "original_title": "Kidnap",
+      "genre_ids": [
+        16,
         35
       ],
       "backdrop_path": null,
       "adult": false,
-      "overview": "In the Song Dynasty, a group of patriots play soccer against the traitor with a team of foreign enemies, royal pro-nobles, bandits, martial arts masters and embrace the country hatred to compete for the first time in the history of China International soccer match.",
-      "release_date": "2017-06-30"
+      "overview": "A little chicken is late to school, and uses being \"kidnapped\" as her excuse.",
+      "release_date": "2009-06-08"
     }
   ]
 }

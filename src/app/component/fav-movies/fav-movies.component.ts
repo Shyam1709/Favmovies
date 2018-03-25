@@ -19,7 +19,7 @@ export class FavMoviesComponent implements OnInit {
 	}
 
 	ngOnInit() {
-		this.getFavourite();
+    this.getFavourite();
 	}
 
 	//get data of favourite movies from database
@@ -28,9 +28,13 @@ export class FavMoviesComponent implements OnInit {
 			this.favMovies = res;
 			this.showError = false;
 		},(error:any)=>{
-			this.errorMsg = error._body;
+			this.errorMsg = error.statusText;
 			this.showError = true;
 		})
 	}
+setFavMovieList(event){
+ this.favMovies=event.favMovies;
+ this.getFavourite();
+}
 
 }

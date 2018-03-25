@@ -1,11 +1,14 @@
 <!-- For movie Search bar -->
 <div class="col-md-6 col-sm-6 my-3 mx-auto">
+  <form>
   <div class="input-group">
-    <input type="text" class="form-control" (keyup.enter)="searchMovie()"  [(ngModel)]="movieSearch" placeholder="Search movie..." name="movieTitle">
+    <input type="text" class="form-control" (keyup.enter)="searchMovie()"  [(ngModel)]="movieSearch" required pattern="[a-zA-Z0-9]+" placeholder="Search movie..." name="movieTitle">
     <span class="input-group-btn">
       <button class="btn btn-secondary" type="submit" (click)="searchMovie()"> <i class="fa fa-search"></i></button>
     </span>
   </div>
+</form>
+  {{msg}}
 </div>
 
 <!-- Display message when no result found for entered movie  -->

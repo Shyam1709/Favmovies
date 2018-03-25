@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { AppConfig } from './../../../config/config.constant';
 
 @Component({
@@ -10,11 +10,19 @@ import { AppConfig } from './../../../config/config.constant';
 export class MovieListComponent implements OnInit {
 	@Input() movies: Array<any>=[];
 	@Input() flag: string;
-	public movieUrl=AppConfig.baseUrl;
-	constructor() { 
-	}
+  @Output() favArray= new EventEmitter();
+  public movieUrl=AppConfig.baseUrl;
+  public favMovies=[];
+  constructor() { 
+  }
 
-	ngOnInit() {
-	}
+  ngOnInit() {
+  }
 
+  setFavMovieList(event){
+    this.favMovies=event.favMovies;
+    this.favArray.emit({
+      'favMovies': this.favMovies
+    });
+  }
 }

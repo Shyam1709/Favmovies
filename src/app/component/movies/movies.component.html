@@ -1,5 +1,7 @@
 <app-movie-search (success)="setMovieList($event)"></app-movie-search>
-<app-movie-list [movies]="movies" [flag]="flag"></app-movie-list>
+<h5 align="right">Added Favourite Movies: {{favMovies.length}}</h5>
+<app-movie-list [movies]="movies" (favArray)="setFavMovieList($event)" [flag]="flag"></app-movie-list>
+
 
 <!-- for welcome message on home page  -->
 <div class="jumbotron mt-3" *ngIf="hidden">
