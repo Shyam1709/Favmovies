@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter  } from '@angular/core';
 import { JsonApiService } from './../../../../services/json-api.service';
 import { AppConfig } from './../../../../config/config.constant';
-
+import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-movie',
@@ -14,6 +14,7 @@ import { AppConfig } from './../../../../config/config.constant';
 export class MovieComponent implements OnInit {
   @Input() movie: any;
   @Input() flag: any;
+  @Input() index: any;
   @Output() favArray = new EventEmitter();
   @Output() err =new EventEmitter();
   public movieUrl=AppConfig.baseUrl;
@@ -32,11 +33,14 @@ export class MovieComponent implements OnInit {
     addToFavorite(movie) {
       this.jsonApiService.addToFavourite(movie).subscribe((res) =>{
         this.getFavorite();
+        this.err.emit({
+          'errMsg': 'Successfully Added'
+        })
         this.showError = false;
       },(error:any)=>{
         this.errorMsg = error.statusText;
         this.err.emit({
-          'errMsg': this.errorMsg
+          'errMsg': '!Movie Already Added'
         })
         this.showError = true;
       })
@@ -71,8 +75,9 @@ export class MovieComponent implements OnInit {
     this.selectedMovie = movie;
   }
   
-  onSubmit(value: any) {
-    console.log(value);
+  onSubmit(movieForm : NgForm) {
+    alert(movieForm);
+    console.log(movieForm);
   }
 
 }

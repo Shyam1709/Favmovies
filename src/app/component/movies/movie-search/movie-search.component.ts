@@ -1,6 +1,7 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { TmdbApiService } from './../../../services/tmdb-api.service';
 
+
 @Component({
   selector: 'app-movie-search',
   templateUrl: './movie-search.component.html',
@@ -13,9 +14,7 @@ export class MovieSearchComponent implements OnInit {
   public moviesList=[];
   public movieSearch: string; 
   public errorMsg ='';
-  public msg:string;
   public showError : boolean = false;
-  public searchResult : boolean = false;
 
   constructor(private tmdbApiService : TmdbApiService) {
   }
@@ -25,21 +24,10 @@ export class MovieSearchComponent implements OnInit {
 
   // Function to get search text and make service call to get movies from TMDB
   searchMovie(){
-    if(this.movieSearch.length<4){
-      this.msg=' Movie Title must be at least 4 characters long';
       this.moviesList=[];
       this.onEventEmit(this.moviesList);
-      return;
-    }
     this.tmdbApiService.searchMovie(this.movieSearch).subscribe((res) =>{
       this.moviesList = res.results;
-       if(this.moviesList.length==0){
-         this.searchResult=true;
-       }
-       else{
-        this.searchResult=false; 
-       } 
-      this.msg='';
      this.onEventEmit(this.moviesList);
     }, (error) =>{
       this.errorMsg = error._body;

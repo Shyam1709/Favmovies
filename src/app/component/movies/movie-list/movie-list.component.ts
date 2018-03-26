@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { AppConfig } from './../../../config/config.constant';
 
+
 @Component({
 	selector: 'app-movie-list',
 	templateUrl: './movie-list.component.html',
@@ -18,10 +19,9 @@ export class MovieListComponent implements OnInit {
   constructor() { 
   }
 
-  ngOnInit() {
-    this.displayError=false;
-  }
+  ngOnInit() {}
 
+//sent favourite movies data from output 
   setFavMovieList(event){
     this.favMovies=event.favMovies;
     this.favArray.emit({
@@ -33,7 +33,5 @@ export class MovieListComponent implements OnInit {
   showError(event){
     this.displayError=false;
     this.errorMsg=event.errMsg;
-    if(this.errorMsg!=""){
-    this.displayError=true;
+    this.displayError= true;
       }}
-}
