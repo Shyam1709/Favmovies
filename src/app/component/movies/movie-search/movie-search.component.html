@@ -2,7 +2,7 @@
 <div class="col-md-6 col-sm-6 my-3 mx-auto">
   <form >
     <div class="input-group">
-      <input type="text" (keyup.enter)="search()" id="movieTitle" class="form-control"  [(ngModel)]="movieSearch" required pattern="[a-zA-Z0-9 ]+" required minlength="4" required maxlength="20" placeholder="Search movie..." name="movieTitle" #movieTitle="ngModel">
+      <input type="text" id="movieTitle" class="form-control"  [(ngModel)]="movieSearch" required pattern="[a-zA-Z0-9 ]+" required minlength="4" required maxlength="20" placeholder="Search movie..." name="movieTitle" #movieTitle="ngModel">
       <span class="input-group-btn">
         <button class="btn btn-secondary" type="submit" (click)="(movieTitle.invalid && (movieTitle.touched))?'' : searchMovie()"> <i class="fa fa-search"></i></button>
       </span>
@@ -15,7 +15,7 @@
         MovieName must be at least 4 characters long.
       </div> 
       <div *ngIf="movieTitle.errors?.pattern"> 
-       Movie Name name not valid.
+       Movie Name not valid.
      </div> 
    </div>
  </form>

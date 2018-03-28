@@ -10,38 +10,12 @@
     <p class="card-text"><strong>Rating:</strong> {{movie.vote_average}}</p>
   </div>
 </div>
+</div>
 <div *ngIf="flag === 'search'">
   <a class="btn btn-primary btn-add" (click)="addToFavorite(movie)" >Add to favourite</a>
 </div>
 <div *ngIf="flag === 'list'">
   <a class="btn btn-primary btn-add" (click)="deleteMovie(movie.id)" >Delete</a>
-  <button type="button" class="btn btn-primary btn-update" data-toggle="modal" [attr.data-target]="'#exampleModal'+index">
-    Update
-  </button>
+  <a class="btn btn-primary btn-add" (click)="setMovie(movie)" >Update</a>
 </div>
-<!-- Button trigger modal -->
 
-<!-- Modal -->
-<div class="modal fade" [attr.id]="'exampleModal'+index" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Update Movie</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form #movieForm+index="ngForm" (ngSubmit)="onSubmit(movieForm+index.v)"> 
-          <input class="form-control mb-3" type="text" name="title" placeholder="Movie Title" ngModel #title="ngModel">
-          <input class="form-control mb-3" type="text" name="overview" placeholder="Overview" ngModel #overview="ngModel">
-          <input class="form-control mb-3" type="text" name="rating" placeholder="Rating" ngModel #rating="ngModel">
-        </form>
-      </div>
-      <div class="modal-footer">
-        <input type="submit" value="update">
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal ends here -->

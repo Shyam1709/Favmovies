@@ -27,7 +27,7 @@ export class MoviesComponent implements OnInit {
     this.movies = event.moviesList;
   }
 
-  //get data of favourite movies from database
+  //to get data of favourite movies from database
   countFavourite() {
     this.jsonApiService.getFavourite().subscribe((res) =>{
       this.favMovies = res;
