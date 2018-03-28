@@ -53,7 +53,6 @@ export class MovieComponent implements OnInit {
       this.favMovies = res;
       this.favArray.emit({
         'favMovies': this.favMovies
-
       });
       this.showError = false;
     },(error:any)=>{
@@ -74,12 +73,10 @@ export class MovieComponent implements OnInit {
 
   // Set Movie details to update
   setMovie(movie) {
-    //this.selectedMovie = movie;
     this.update.emit({
           'movie': movie
         })
   }
-  
- 
+   
 
 }

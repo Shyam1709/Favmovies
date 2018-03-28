@@ -1,4 +1,4 @@
-/*css for button*/
+/*Css for button*/
 .btn-add{
   position: absolute;
   bottom: 0px;
@@ -6,4 +6,10 @@
   margin-top: 12px;
 }
 
-
+/*Css for update button*/
+.btn-update{
+  position: absolute;
+  bottom: 0px;
+  right: 90px;
+  margin-top: 12px;
+}

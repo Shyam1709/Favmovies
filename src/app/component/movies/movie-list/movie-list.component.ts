@@ -17,6 +17,7 @@ export class MovieListComponent implements OnInit {
   public movieUrl=AppConfig.baseUrl;
   public favMovies=[];
   public errorMsg="";
+  public showerror : boolean = false;
   public displayError:boolean=false;
   public currentMovie : any={};
      @ViewChild('modalBtn') modalBtn: ElementRef;
@@ -47,15 +48,15 @@ setMovie(event){
   
 }
 
-// onSubmit(value : any) {
-//   return this.jsonApiService.updateMovies(value).subscribe(data=>{
-//     this.favMovies=data;
-//     console.log(this.favMovies);
-//     },(error:any)=>{
-//       this.errorMsg = error.statusText;
-//       this.showError = true;
-//     })
-//   }
+//to update current movie details in the database
+onSubmit(currentMovie) {
+    this.jsonApiService.updateMovies(this.currentMovie).subscribe(data=>{
+      this.favMovies=this.currentMovie;
+    },(error:any)=>{
+      this.errorMsg = error.statusText;
+      this.showerror = true;
+    })
+    }
+  }
 
-}
 

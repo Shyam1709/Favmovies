@@ -10,12 +10,13 @@
     <p class="card-text"><strong>Rating:</strong> {{movie.vote_average}}</p>
   </div>
 </div>
-</div>
 <div *ngIf="flag === 'search'">
   <a class="btn btn-primary btn-add" (click)="addToFavorite(movie)" >Add to favourite</a>
 </div>
 <div *ngIf="flag === 'list'">
   <a class="btn btn-primary btn-add" (click)="deleteMovie(movie.id)" >Delete</a>
-  <a class="btn btn-primary btn-add" (click)="setMovie(movie)" >Update</a>
+  <a class="btn btn-primary btn-update" (click)="setMovie(movie)" >Update</a>
+  
+</div>
 </div>
 

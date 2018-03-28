@@ -4,10 +4,10 @@
     <div class="input-group">
       <input type="text" id="movieTitle" class="form-control"  [(ngModel)]="movieSearch" required pattern="[a-zA-Z0-9 ]+" required minlength="4" required maxlength="20" placeholder="Search movie..." name="movieTitle" #movieTitle="ngModel">
       <span class="input-group-btn">
-        <button class="btn btn-secondary" type="submit" (click)="(movieTitle.invalid && (movieTitle.touched))?'' : searchMovie()"> <i class="fa fa-search"></i></button>
+        <button class="btn btn-secondary" type="submit" (click)="(movieTitle.invalid)?'' : searchMovie()"> <i class="fa fa-search"></i></button>
       </span>
     </div>
-    <div *ngIf="movieTitle.invalid && (movieTitle.touched)">
+    <div *ngIf="movieTitle.invalid">
       <div *ngIf="movieTitle.errors.required">
         MovieName is required.
       </div>
