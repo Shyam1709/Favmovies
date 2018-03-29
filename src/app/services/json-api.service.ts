@@ -40,6 +40,20 @@ deleteMovie(movieId){
     (error: any)=>this.handleError(error));
 }
 
+// Call rest api to login user into user database
+loginUser(loginDetails){ 
+  return this.http.post(AppConfig.userUrl+'/login',loginDetails, {headers: this.headers})
+  .map(loginData => loginData.json(),
+    (error:any) =>this.handleError(error));
+}
+
+// Call rest api to register user into user database
+registerUser(userDetails){ 
+  return this.http.post(AppConfig.userUrl+'/register',userDetails, {headers: this.headers})
+  .map(userData => userData.json(),
+    (error:any) =>this.handleError(error));
+}
+
 // Handle errors
 private handleError(error: Response){
   return Observable.throw(error.statusText);

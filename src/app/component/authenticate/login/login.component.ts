@@ -1,0 +1,28 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+	selector: 'app-login',
+	templateUrl: './login.component.html',
+	styleUrls: ['./login.component.css']
+})
+export class LoginComponent implements OnInit {
+	public loginDetails:any={};
+	public errorMsg ='';
+	public showError : boolean = false;
+	constructor() { }
+
+	ngOnInit() {
+	}
+
+
+	login(loginDetails){
+		this.jsonApiService.loginUser(loginDetails).subscribe((res)=>{
+			this.loginDetails={};
+		},(error:any)=>{
+			this.errorMsg = error.statusText;
+			this.showError = true;
+		})
+
+	}
+
+}
