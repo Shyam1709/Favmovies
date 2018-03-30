@@ -43,7 +43,7 @@ deleteMovie(movieId){
 // Call rest api to login user into user database
 loginUser(loginDetails){ 
   return this.http.post(AppConfig.userUrl+'/login',loginDetails, {headers: this.headers})
-  .map(loginData => loginData.json(),
+  .map(data =>data.json(),
     (error:any) =>this.handleError(error));
 }
 
