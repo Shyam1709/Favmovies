@@ -7,17 +7,6 @@
         <button class="btn btn-secondary" type="submit" (click)="(movieTitle.invalid)?'' : searchMovie()"> <i class="fa fa-search"></i></button>
       </span>
     </div>
-    <div *ngIf="movieTitle.invalid">
-      <div *ngIf="movieTitle.errors.required">
-        MovieName is required.
-      </div>
-      <div *ngIf="movieTitle.errors.minlength">
-        MovieName must be at least 4 characters long.
-      </div> 
-      <div *ngIf="movieTitle.errors?.pattern"> 
-       Movie Name not valid.
-     </div> 
-   </div>
  </form>
 </div>
 

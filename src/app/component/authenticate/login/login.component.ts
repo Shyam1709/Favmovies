@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
 	public loginDetails:any={};
 	public errorMsg ='';
 	public showError : boolean = false;
+	public er: any={};
 	constructor(private jsonApiService: JsonApiService,private router: Router) { }
 
 	ngOnInit() {
@@ -21,8 +22,11 @@ export class LoginComponent implements OnInit {
 	login(loginDetails){
 		this.jsonApiService.loginUser(loginDetails).subscribe((res)=>{	
 			this.loginDetails={};
+			alert(JSON.parse(res));
 			this.router.navigate(['/home']);
 		},(error:any)=>{
+			this.er=JSON.parse(error._body);
+			alert(this.er.error);
 			this.errorMsg = error.statusText;
 			this.showError = true;
 		})

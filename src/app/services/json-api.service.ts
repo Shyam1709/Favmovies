@@ -50,12 +50,12 @@ loginUser(loginDetails){
 // Call rest api to register user into user database
 registerUser(userDetails){ 
   return this.http.post(AppConfig.userUrl+'/register',userDetails, {headers: this.headers})
-  .map(userData => userData.json(),
+  .map(userData =>userData.toString(),
     (error:any) =>this.handleError(error));
 }
 
 // Handle errors
 private handleError(error: Response){
-  return Observable.throw(error.statusText);
+  return Observable.throw(error);
 }
 }
